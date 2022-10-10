@@ -1,0 +1,102 @@
+#personas h2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.2;
+    margin-top: -10px;
+    margin-left: 10px;
+    
+
+}
+#personas p{
+    font-size: 12px;
+    line-height: 1.9;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+.contenedor-personas  a{
+    margin-bottom: 5px;
+    display: flex;
+}
+#personas .contenedor-personas{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+text-align: justify;
+}
+#personas article{
+    margin: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    overflow: hidden;
+    border-radius: 2px;
+
+}
+#personas img{
+    width: 110%;
+    height: 60%;
+    max-width: 350px;
+    margin-bottom: 5px;
+}
+
+
+.boton-javascript{
+        display: flex;
+        text-decoration: none;
+        padding: 3px;
+        border: 1px solid #FFBD00;
+        border-radius: 4px;
+        color: black;
+        background-color: #FFBD00;
+        font-size: 12px;
+        font-weight: bold;
+        width: 70px;
+        margin-left: 10px;
+        font-weight: bold;
+        
+        
+}
+#boton-react1,
+    #boton-react2{
+        display: flex;
+        background-color: #19ABC2;
+        color: white;
+        border-color:#19ABC2;
+        width: 45px;
+        border-radius: 3px;
+        margin-left: 82px;
+        margin-top: -19px;
+        font-weight: bold;
+     
+    }
+
+    #boton-negocios{
+        display: flex;
+        background-color: #636E79;
+        color: white;
+        border-color:#636E79;
+        width: 76px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 10px;
+    }
+    #boton-startups{
+        
+        background-color: #DB3B49;
+        color: white;
+        border-color:#DB3B49 ;
+        width: 76px;
+        text-decoration: none;
+        border-radius: 4px;
+        display: flex;
+        margin-left: 90px;
+        margin-top: -18px;
+        font-weight: bold;
+        text-align: center;
+      
+    }
+

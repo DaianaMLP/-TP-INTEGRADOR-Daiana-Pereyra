@@ -1,0 +1,94 @@
+#baner-galeria {
+    overflow: hidden;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+   text-align:right;
+}
+#baner-galeria img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.3);
+    
+    display: flex;
+    background-size: cover;
+}
+#baner-galeria li{
+    width: 100%;
+    list-style:none;
+}
+#baner-galeria ul{
+    width: 300%;
+    height: 98%;
+    display:flex;
+    padding: 0;
+    animation: cambio 15s infinite alternate linear;
+}
+@keyframes cambio{
+    0%{ margin-left:0; }
+    20%{margin-left: 0; }
+   
+    25%{ margin-left: -100%;}
+    45%{margin-left:-100%;}
+   
+    50%{ margin-left: -200%;}
+    75%{margin-left:-200%;}
+   
+    75%{ margin-left: -200%;}
+    100%{margin-left:-200%;}
+}
+ .contenedor-texto p{
+    color:rgba(255, 255, 255, 0.658);
+    position:absolute;
+    transform: traslate(-50%, -50%);
+    top: 45%;
+    right: 120px;
+    text-align:right;
+    font-size:19px;
+    line-height: 28px;
+}
+.contenedor-texto h1{
+    font-weight: 400;
+    color:white;
+    position:absolute;
+    transform: traslate(-50%, -50%);
+    top: 38%;
+    right: 116px;
+    text-align:right;
+    font-size:30px
+    
+}
+/*BOTONES DE GALERIA*/
+#baner-galeria a{
+    position:absolute;
+    transform: traslate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    top:70%;
+    font-size:19px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+}
+.boton-serorador{
+    background-color: rgba(255, 255, 255, 0.017);
+    color: rgba(255, 255, 255, 0.658);
+    border: 1px solid rgba(255, 255, 255, 0.658);
+    text-decoration:none;
+    padding: 9px 9px;
+    margin-right: 7%;
+    border-radius: 4px;
+    left: 66%;
+ }
+.boton-comprar{
+    background-color:#29B629;
+    color: rgba(255, 255, 255, 0.658);
+    text-decoration:none;
+    border:1px solid  #29B629 ;
+    padding: 9px 8px;   
+    border-radius: 4px;
+    left: 80%;
+    
+}
