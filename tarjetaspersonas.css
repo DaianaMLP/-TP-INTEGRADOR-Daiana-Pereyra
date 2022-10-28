@@ -1,7 +1,8 @@
 #personas h2{
     text-align: left;
-    font-weight: bold;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #212529;
     line-height: 1.2;
     margin-top: -10px;
     margin-left: 10px;
@@ -9,7 +10,8 @@
 
 }
 #personas p{
-    font-size: 12px;
+    font-size:0.62em;
+    color: #1d2023;
     line-height: 1.9;
     margin-top: 10px;
     margin-left: 10px;
@@ -19,20 +21,26 @@
 
 .contenedor-personas  a{
     margin-bottom: 5px;
-    display: flex;
+
 }
 #personas .contenedor-personas{
-display: flex;
+
 justify-content: center;
 flex-wrap: wrap;
-text-align: justify;
+
+
 }
 #personas article{
-    margin: 15px;
+
     border: 1px solid rgba(128, 128, 128, 0.363);
     overflow: hidden;
     border-radius: 2px;
+    margin-right:0;
 
+}
+article{ width: 45%;
+    margin-left:25%;
+    margin-top: 10%;
 }
 #personas img{
     width: 110%;
@@ -50,8 +58,8 @@ text-align: justify;
         border-radius: 4px;
         color: black;
         background-color: #FFBD00;
-        font-size: 12px;
-        font-weight: bold;
+        font-size: 0.7em;
+        font-weight: 500;
         width: 70px;
         margin-left: 10px;
         font-weight: bold;
@@ -62,41 +70,65 @@ text-align: justify;
     #boton-react2{
         display: flex;
         background-color: #19ABC2;
-        color: white;
+        color:#f8f9fa;
         border-color:#19ABC2;
         width: 45px;
         border-radius: 3px;
         margin-left: 82px;
         margin-top: -19px;
-        font-weight: bold;
+        font-weight: 500;
+        font-size: 0.9em;
      
     }
 
     #boton-negocios{
         display: flex;
-        background-color: #636E79;
-        color: white;
-        border-color:#636E79;
-        width: 76px;
+        background-color: #6c757d;
+        color:#f8f9fa;
+        border-color:#6c757d;
+        width: 70px;
         text-decoration: none;
         border-radius: 4px;
-        font-weight: bold;
+        font-weight:500;
+        font-size: 0.9em;
         text-align: center;
-        margin-left: 10px;
+        margin-left: 2px;
+        padding: 2px;
     }
     #boton-startups{
         
-        background-color: #DB3B49;
-        color: white;
-        border-color:#DB3B49 ;
-        width: 76px;
+        background-color: #d82635;
+        color: #f8f9fa;
+        border-color:#d82635 ;
+        width: 73px;
         text-decoration: none;
         border-radius: 4px;
         display: flex;
-        margin-left: 90px;
-        margin-top: -18px;
-        font-weight: bold;
+        margin-left: 85px;
+        margin-top: -23px;
+        font-weight: 500;
+        font-size: 0.9em;
         text-align: center;
+        padding: 1px;
       
     }
 
+
+
+    
+/*RESPONSIVE*/
+@media (min-width:1024px){
+#personas .contenedor-personas{
+        width: 1000px;
+        display: flex;
+        margin-left: 10%;
+        }
+        article{ 
+        margin-left: 20px;   
+        width: 30%;
+        margin-top:5px;
+    }
+    #personas p{
+        font-size:0.63em;
+        color: #141618;}
+}
